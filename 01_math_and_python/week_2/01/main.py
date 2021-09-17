@@ -1,5 +1,5 @@
 """
-Задание просит найти два преложения из файла, ближайшие по синтаксису
+Задание просит найти два предложения из файла, ближайшие по синтаксису
 к первому. Близость определяется как минимальное косинусное расстояние.
 """
 import re
@@ -69,4 +69,4 @@ def find_n_closest_sentences(path:str, n:int):
 		s.write(ans)
 
 
-find_n_closest_sentences("sentences.txt", 2)
+# find_n_closest_sentences("sentences.txt", 2)
